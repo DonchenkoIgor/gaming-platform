@@ -34,6 +34,40 @@
         </div>
         <img src="{{asset('img/joystick.svg')}}" alt="joystick">
     </div>
+
+    <div class="container trending">
+        <a href="#" class="see-all">SEE ALL</a>
+        <h3>Currently Trending Games</h3>
+
+        <div class="games">
+            <div class="block">
+                <img src="{{asset('img/game1.png')}}" alt="">
+                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
+            </div>
+            <div class="block">
+                <img src="{{asset('img/game2.png')}}" alt="">
+                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
+            </div>
+            <div class="block">
+                <img src="{{asset('img/game3.png')}}" alt="">
+                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
+            </div>
+            <div class="block">
+                <img src="{{asset('img/game4.png')}}" alt="">
+                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container big-text">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+
+    <div class="container banner">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+        <img src="{{asset('img/banner.png')}}" alt="">
+    </div>
 </div>
 </body>
 </html>
