@@ -125,6 +125,48 @@
         </div>
         <a href="" class="see-all">SEE ALL</a>
     </div>
+
+    <div class="container email">
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <div class="block">
+            <div>
+                <h4>Stay in the loop</h4>
+                <p>Subscribe to receive the latest news and updates about TDA.
+                    We promise not to spam you! </p>
+            </div>
+            <div>
+                <input type="email" id="emailField" placeholder="Enter email address">
+                <button onclick="checkEmail()">Continue</button>
+            </div>
+        </div>
+    </div>
 </div>
+
+<footer>
+    <div class="blocks container">
+        <div>
+            <span class="logo">Logo</span>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </div>
+        <div>
+            <h4>About us</h4>
+            <ul>
+                <li>Zeux</li>
+                <li>Portfolio</li>
+                <li>Careers</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contact us</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>+908 89097 890</p>
+        </div>
+    </div>
+    <hr>
+    <p>Copyright ® 2025 Lorem All rights Rcerved</p>
+</footer>
+
 </body>
 </html>
