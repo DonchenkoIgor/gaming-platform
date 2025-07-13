@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/gamezone', [MainController::class, 'index']);
+Route::get('/gamezone', [MainController::class, 'index'])->name('main');
+Route::get('/gamezone/about', [\App\Http\Controllers\AboutController::class, 'about'])->name('about');
