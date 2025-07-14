@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/gamezone', [MainController::class, 'index'])->name('main');
 Route::get('/gamezone/about', [\App\Http\Controllers\AboutController::class, 'about'])->name('about');
+Route::get('/gamezone/contact', [\App\Http\Controllers\ContactController::class, 'contact'])->name('contact');

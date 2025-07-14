@@ -1,0 +1,68 @@
+/* about */
+
+.hero-about {
+    position: relative;
+}
+
+.hero-about img {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+
+.hero-about .info {
+    width: 500px;
+    padding: 250px 0;
+}
+
+.hero-about .info h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .info .btn {
+    margin-top: 20px;
+}
+
+.work {
+    padding: 80px 0;
+}
+
+.work h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.work .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work .blocks .block {
+    width: 25%;
+    border-radius: 10px;
+    padding: 50px 35px;
+    background: #1C140F;
+}
+
+.work .blocks .block h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.work .blocks .block .badge {
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.work .blocks .block .badge.purple {
+    background: #B000DC;
+}
+
+.work .blocks .block .badge.brown {
+    background: #DC4200;
+}
+
+.work .blocks .block .badge.green {
+    background: #00DC8D;
+}

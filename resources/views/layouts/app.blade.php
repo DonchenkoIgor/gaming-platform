@@ -8,6 +8,12 @@
     <title>Game Website</title>
 
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('css/image.css')}}">
+    <link rel="stylesheet" href="{{asset('css/hero.css')}}">
+    <link rel="stylesheet" href="{{asset('css/games.css')}}">
+    <link rel="stylesheet" href="{{asset('css/email.css')}}">
+    <link rel="stylesheet" href="{{asset('css/contact.css')}}">
+    <link rel="stylesheet" href="{{asset('css/about.css')}}">
 </head>
 <body>
 <div class="wrapper">
