@@ -25,9 +25,16 @@
 
 .trending .games {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 50px 0;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.trending .games .block {
+    flex: 0 0 calc((100% - 60px) / 4);
+    box-sizing: border-box;
 }
 
 .trending .games span {
