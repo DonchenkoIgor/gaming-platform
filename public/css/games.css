@@ -1,4 +1,4 @@
-/*section with games*/
+/*section with trending games*/
 
 .trending {
     padding-top: 50px;
@@ -29,18 +29,22 @@
     gap: 20px;
     padding: 50px 0;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .trending .games .block {
     flex: 0 0 calc((100% - 60px) / 4);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .trending .games span {
     display: block;
     text-align: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 .trending .games span img {
