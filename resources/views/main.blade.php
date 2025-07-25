@@ -13,26 +13,16 @@
     </div>
 
     <div class="container trending">
-        <a href="#" class="see-all">SEE ALL</a>
+        <a href="{{route('trending')}}" class="see-all">SEE ALL</a>
         <h3>Currently Trending Games</h3>
 
         <div class="games">
+            @foreach($trending as $game)
             <div class="block">
-                <img src="{{asset('img/game1.png')}}" alt="">
-                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
+                <img src="{{asset($game->image)}}" alt="">
+                <span><img src="{{asset('img/fire 1.svg')}}" alt="">{{$game->followers}} Followers</span>
             </div>
-            <div class="block">
-                <img src="{{asset('img/game2.png')}}" alt="">
-                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
-            </div>
-            <div class="block">
-                <img src="{{asset('img/game3.png')}}" alt="">
-                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
-            </div>
-            <div class="block">
-                <img src="{{asset('img/game4.png')}}" alt="">
-                <span><img src="{{asset('img/fire 1.svg')}}" alt="">40 Followers</span>
-            </div>
+            @endforeach
         </div>
     </div>
 
